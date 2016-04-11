@@ -22,25 +22,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -58,9 +58,9 @@
 <board>
 <plain>
 <wire x1="-1.27" y1="-1.27" x2="74.6" y2="-1.27" width="0" layer="20"/>
-<wire x1="74.6" y1="-1.27" x2="74.6" y2="15.23" width="0" layer="20"/>
-<wire x1="74.6" y1="15.23" x2="-1.27" y2="15.23" width="0" layer="20"/>
-<wire x1="-1.27" y1="15.23" x2="-1.27" y2="-1.27" width="0" layer="20"/>
+<wire x1="74.6" y1="-1.27" x2="74.6" y2="13.96" width="0" layer="20"/>
+<wire x1="74.6" y1="13.96" x2="-1.27" y2="13.96" width="0" layer="20"/>
+<wire x1="-1.27" y1="13.96" x2="-1.27" y2="-1.27" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="conn">
@@ -804,18 +804,6 @@ design rules under a new name.</description>
 <wire x1="25.4" y1="8.89" x2="12.7" y2="8.89" width="0.4064" layer="1"/>
 </signal>
 <signal name="GND">
-<polygon width="0.4064" layer="1">
-<vertex x="0" y="0"/>
-<vertex x="73.66" y="0"/>
-<vertex x="73.66" y="13.97"/>
-<vertex x="0" y="13.97"/>
-</polygon>
-<polygon width="0.4064" layer="16">
-<vertex x="0" y="13.97"/>
-<vertex x="73.66" y="13.97"/>
-<vertex x="73.66" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
 <contactref element="U$1" pad="2"/>
 <contactref element="U$1" pad="3"/>
 <contactref element="SV2" pad="44"/>
@@ -834,19 +822,104 @@ design rules under a new name.</description>
 <contactref element="SV1" pad="26"/>
 <contactref element="SV1" pad="2"/>
 <contactref element="SV1" pad="19"/>
-<via x="1.27" y="12.7" extent="1-16" drill="0.6" shape="square"/>
-<via x="22.86" y="12.7" extent="1-16" drill="0.6" shape="square"/>
+<via x="1.27" y="11.43" extent="1-16" drill="0.6" shape="square"/>
+<via x="22.86" y="11.43" extent="1-16" drill="0.6" shape="square"/>
 <via x="1.27" y="1.27" extent="1-16" drill="0.6" shape="square"/>
-<via x="72.39" y="12.7" extent="1-16" drill="0.6" shape="square"/>
+<via x="72.39" y="11.43" extent="1-16" drill="0.6" shape="square"/>
+<polygon width="0.4064" layer="16" isolate="0.254" orphans="yes">
+<vertex x="-0.635" y="13.335"/>
+<vertex x="75.565" y="13.335"/>
+<vertex x="74.93" y="-1.27"/>
+<vertex x="-1.27" y="-1.27"/>
+</polygon>
+<polygon width="0.4064" layer="1" isolate="0.254" orphans="yes">
+<vertex x="-0.635" y="13.335"/>
+<vertex x="75.565" y="13.335"/>
+<vertex x="74.93" y="-1.27"/>
+<vertex x="-1.27" y="-1.27"/>
+</polygon>
+</signal>
+<signal name="S$1">
+<via x="16.51" y="1.27" extent="1-16" drill="0.6" diameter="0.6096" shape="square"/>
 </signal>
 </signals>
 <errors>
-<approved hash="1,20,54f3aa13a5225bc2"/>
 <approved hash="1,20,5885916596775f97"/>
-<approved hash="1,20,19bdeb5deb2519c5"/>
-<approved hash="1,20,efbd245d2427efc7"/>
+<approved hash="1,20,14f3e613e9221bc2"/>
+<approved hash="1,20,e2f329132620edc0"/>
 <approved hash="1,20,18fbea1be90a1bea"/>
-<approved hash="1,20,61bc935c932761c7"/>
+<approved hash="1,20,6cf29e12912063c0"/>
+<approved hash="1,20,18f9c619c5141bf4"/>
+<approved hash="18,29,937c888287419cbf"/>
+<approved hash="18,29,357c04820b4c3ab2"/>
+<approved hash="18,29,13f5cf1b70a6c624"/>
+<approved hash="18,29,480340804eddfe53"/>
+<approved hash="18,29,7583f880f5dabcd4"/>
+<approved hash="18,29,8085bd071743aacc"/>
+<approved hash="18,29,844d7781cf0152ad"/>
+<approved hash="18,29,0e75551a39a8d4aa"/>
+<approved hash="18,29,3790b4120e4fddc1"/>
+<approved hash="18,29,9016e894f63186be"/>
+<approved hash="18,29,94e82fea34b007be"/>
+<approved hash="18,29,16cdd0813906e12a"/>
+<approved hash="18,29,4275d71b77a194a3"/>
+<approved hash="18,29,2e6d6befb1ba9434"/>
+<approved hash="18,29,a44dd3814f0116ad"/>
+<approved hash="18,29,9276c91851baa4bb"/>
+<approved hash="18,29,e57912f428a80f26"/>
+<approved hash="18,29,944df181590a42a6"/>
+<approved hash="18,29,a6753f1bd3a554a7"/>
+<approved hash="18,29,8c7509f7e397861a"/>
+<approved hash="18,29,444a3786d70592a9"/>
+<approved hash="18,29,56754d1bf1a584a7"/>
+<approved hash="18,29,834380c11a81a90e"/>
+<approved hash="18,29,844d4981f505aea9"/>
+<approved hash="18,29,02755f1a37a4d4a6"/>
+<approved hash="18,29,3a5eb7dc0d8de003"/>
+<approved hash="18,29,d44c5b8137042ea8"/>
+<approved hash="18,29,5275c91b49a5a4a7"/>
+<approved hash="18,29,312b6ea984f89b76"/>
+<approved hash="18,29,a44dc981490512a9"/>
+<approved hash="18,29,ae6af7045bba94a7"/>
+<approved hash="18,29,e827e5a63fe61268"/>
+<approved hash="18,29,944df7815f0a42a6"/>
+<approved hash="18,29,ae75351bc9a144a3"/>
+<approved hash="18,29,9f331cb1f6d5855c"/>
+<approved hash="18,29,444e3182cd0196ad"/>
+<approved hash="18,29,5275571bf7a984ab"/>
+<approved hash="18,29,9601938319dfbc50"/>
+<approved hash="18,29,944d5381ff19a6b5"/>
+<approved hash="18,29,0275591a31a0d4a2"/>
+<approved hash="18,29,0d1cba9e10cbf745"/>
+<approved hash="18,29,a44c5180c90052ac"/>
+<approved hash="18,29,5675cf1b5259a55b"/>
+<approved hash="18,29,35e9706b8a376fb8"/>
+<approved hash="18,29,d44d3781570902a5"/>
+<approved hash="18,29,a676fd1851a294a3"/>
+<approved hash="18,29,eae5e967c32410aa"/>
+<approved hash="18,29,944df98155024eae"/>
+<approved hash="18,29,9275cf1b37a544a7"/>
+<approved hash="18,29,63f11e73f413899d"/>
+<approved hash="18,29,444dcb813705aea9"/>
+<approved hash="18,29,4275591bf9a594a7"/>
+<approved hash="18,29,98cf974d6d1d4292"/>
+<approved hash="18,29,944d5981f905a2a9"/>
+<approved hash="18,29,0e75571bcba4a4a6"/>
+<approved hash="18,29,11da4c58e609fb87"/>
+<approved hash="18,29,a44c5780cf0452a8"/>
+<approved hash="18,29,e1f5391bd8a41626"/>
+<approved hash="18,29,9255ead7f48c8401"/>
+<approved hash="18,29,5dd5e6d7758d4680"/>
+<approved hash="18,29,c6d745559f756cfb"/>
+<approved hash="18,29,d44d31815d0506a9"/>
+<approved hash="18,29,a272f71c57a294a7"/>
+<approved hash="18,29,ffa3fa21c06265ec"/>
+<approved hash="18,29,1a3952bb9ce30c6d"/>
+<approved hash="18,29,823a1738de62876c"/>
+<approved hash="18,29,c6cc7880d701132d"/>
+<approved hash="18,29,9275c91b31a944ab"/>
+<approved hash="18,29,74bfe33df9619eef"/>
+<approved hash="18,29,544dd1813939a295"/>
 </errors>
 </board>
 </drawing>
